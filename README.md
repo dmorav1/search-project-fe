@@ -44,6 +44,7 @@ As this is yet an ongoing project, following things are pending:
 - Refactor code following better pattern than current. 
 - Implement test cases with jest.
 - Add CSS Design. 
+- Pending on demo deployment
 
 
 
