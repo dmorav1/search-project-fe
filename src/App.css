@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5% 5%;
 }
 
 .App-logo {
@@ -35,4 +41,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+.information-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 20%;
+  align-items: center;
+  column-gap: 7%;
+}
+
+.information{
+  
+    
+    height: 30%;
+    width: 20%;
+    display: flex;
+}
+.informationImage{
+    width: 20%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.informationContent{
+  height: 80%;
+  
+  flex-grow:4
+}
+.information-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  column-gap: 19%;
+}
+.informationImage img{
+  width: 100%;
+  height: 100%;
 }
