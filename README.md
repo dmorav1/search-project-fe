@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Search Project Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Please be aware this project was developed just with educational purposes, there are things that must be done for working on real production environment. 
+
+This FrontEnd shows information coming from a server which implements backend API [search-project-be](https://github.com/dmorav1/search-project-be).
+
+This is an ongoing project and could have errors, if you want to test it, there is a versioned deployed at 
 
 ## Available Scripts
 
@@ -27,20 +31,19 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Steps to run & deploy
 
-### `npm run eject`
+For running this project you must to setup environment variable `REACT_APP_API_URL` with the URL of backend API. for testing purposes you can setup `https://search-project-be.herokuapp.com/api`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Once you have it, please follow section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) in order to deploy this react project in your preferred platform. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##To do
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+As this is yet an ongoing project, following things are pending:
+- Create routes to view showing individual search element details.
+- Refactor code following better pattern than current. 
+- Implement test cases with jest.
+- Add CSS Design. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
